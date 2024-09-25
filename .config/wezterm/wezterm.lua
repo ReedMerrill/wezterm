@@ -11,7 +11,7 @@ config.set_environment_variables = { COLORTERM = "truecolor" }
 -- For example, changing the color scheme:
 config.color_scheme = "Catppuccin Mocha"
 config.enable_tab_bar = false
-config.font = wezterm.font("0xProto Nerd Font Mono", { weight = "Bold" })
+config.font = wezterm.font("0xProto Nerd Font Mono", { weight = "Regular" })
 config.font_size = 13.5
 
 -- and finally, return the configuration to wezterm
